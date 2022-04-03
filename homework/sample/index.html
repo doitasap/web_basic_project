@@ -28,10 +28,11 @@
 
 <script type="text/javascript">
   // loginSubmit = function(){
-  //   alert('로그인을 요청했습니다.')
+  //   alert('로그인을 요청했습니다.(onclick 전용)')
   // }
 
-  document.getElementById("loginBtn").addEventListener("click", ()=> alert("로그인을 요청했습니다."))
+  // document.getElementById("loginBtn").addEventListener("click", ()=> alert("로그인을 요청했습니다."))
+  document.getElementById("loginBtn").addEventListener("click", function(){alert("로그인을 요청했습니다.")})
 </script>
 
 <style>
